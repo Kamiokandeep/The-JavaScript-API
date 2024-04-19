@@ -1,0 +1,28 @@
+.header {
+    overflow: hidden;
+    background-color: #000000;
+    padding: 10px 10px;
+    font-size: 24px;
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #000000; 
+    border-radius: 5px; 
+    overflow: hidden; 
+    padding: 20px;
+}
