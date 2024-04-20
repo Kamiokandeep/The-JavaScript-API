@@ -29,6 +29,9 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+/* ---------
+     header 
+   --------- */
 .header {
     overflow: hidden;
     background-color: #000000;
@@ -38,19 +41,22 @@ body {
     text-align: right;
 }
 
+/* ----------
+     Content 
+   ---------- */
 .main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.card-container {
+.img-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.img-container {
+.card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -68,6 +74,9 @@ h1 {
     margin-bottom: 0;
 }
 
+/* ----------------
+     Section flags 
+   ---------------- */
 .img-container {
     display: flex;
     justify-content: center;
